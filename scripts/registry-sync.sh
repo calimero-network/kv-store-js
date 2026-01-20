@@ -2,7 +2,7 @@
 # Sync WASM to local registry (uses file:// URIs)
 set -euo pipefail
 
-WASM_FILE="${1:-logic/res/kv_store.wasm}"
+WASM_FILE="${1:-logic/res/service.wasm}"
 MANIFEST_FILE="${2:-manifest.json}"
 REGISTRY_URL="${REGISTRY_URL:-http://localhost:8082}"
 
