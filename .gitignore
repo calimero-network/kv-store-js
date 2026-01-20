@@ -1,0 +1,17 @@
+/node_modules
+.DS_Store
+
+.idea/
+data/
+target/
+res/
+app/dist
+
+.pnpm-store
+
+# JS build artifacts (keep res/ for WASM output)
+logic/res/bundle.js
+logic/res/*.c
+logic/res/*.h
+logic/res/*.unoptimized.wasm
+logic/node_modules
